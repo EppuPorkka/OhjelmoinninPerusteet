@@ -1,0 +1,7 @@
+print("Calculate fuel consumption.")
+Feed = input("Enter travel distance(kilometers): ")
+Distance = int(Feed)
+Feed = input("Enter fuel usage(liters): ")
+FuealUsage = int(Feed)
+Consumption = int(FuealUsage / Distance * 100)
+print("Fuel consumption is", Consumption, "l per 100 km")
